@@ -1,5 +1,6 @@
 .block-superfish {
   overflow: visible;
+  background: #D6D8D8 url(images/bg_buttons.png) repeat-x;
 }
 .sf-menu.sf-style-dwmax {
   float: left;
@@ -8,6 +9,7 @@
 }
 .sf-menu.sf-style-dwmax a > .sf-sub-indicator {
   top: 0.85em;
+  right: 1em;
   background-image: url('images/dwmax-arrows.png');
 }
 .sf-menu.sf-style-dwmax.rtl a > .sf-sub-indicator {
@@ -110,14 +112,15 @@
   padding: 0 1.5em;
   line-height: 2.5em;
   text-decoration: none;
-  text-shadow: 1px 1px 0 #ffffff;
 }
 .sf-menu.sf-style-dwmax a:focus,
 .sf-menu.sf-style-dwmax a:hover,
 .sf-menu.sf-style-dwmax a:active,
 .sf-menu.sf-style-dwmax li:hover > a,
 .sf-menu.sf-style-dwmax li.sfHover > a {
-  color: #222222;
+  color: #fff;
+  text-shadow: 2px 2px 3px #000000;
+  background: url(images/bg_buttons.png) 0 -35px repeat-x;
 }
 .sf-menu.sf-style-dwmax li li a,
 .sf-menu.sf-style-dwmax.sf-vertical a {
@@ -140,51 +143,48 @@
 }
 .sf-menu.sf-style-dwmax.sf-horizontal li,
 .sf-menu.sf-style-dwmax.sf-navbar li {
-  border: 1px solid #e0e0e0;
-  border-left-color: #ffffff;
+  
 }
 .sf-menu.sf-style-dwmax.sf-horizontal > li.first,
 .sf-menu.sf-style-dwmax.sf-navbar > li.first {
-  border-left-color: #e0e0e0;
+  
 }
 .sf-menu.sf-style-dwmax.sf-horizontal.rtl > li.first,
 .sf-menu.sf-style-dwmax.sf-navbar.rtl > li.first {
-  border-left-color: #ffffff;
+  
 }
 .sf-menu.sf-style-dwmax.sf-horizontal.rtl > li.last,
 .sf-menu.sf-style-dwmax.sf-navbar.rtl > li.last {
-  border-left-color: #e0e0e0;
+  
 }
 .sf-menu.sf-style-dwmax.sf-navbar li > ul > li {
-  border: 0 none;
-  border-bottom: 1px solid #e0e0e0;
+  
 }
 .sf-menu.sf-style-dwmax.sf-navbar li > ul > li.first,
 .sf-menu.sf-style-dwmax.sf-navbar.rtl li > ul > li.last {
-  border-left: 1px solid #e0e0e0;
+  
 }
 .sf-menu.sf-style-dwmax.sf-navbar li > ul > li.last,
 .sf-menu.sf-style-dwmax.sf-navbar.rtl li > ul > li.first {
-  border-right: 1px solid #e0e0e0;
+  
 }
 .sf-menu.sf-style-dwmax.sf-vertical li,
 .sf-menu.sf-style-dwmax.sf-horizontal li li,
 .sf-menu.sf-style-dwmax.sf-navbar li li li {
-  border: 1px solid #e0e0e0;
-  border-top-color: #ffffff;
+  
 }
 .sf-menu.sf-style-dwmax.sf-vertical li.first,
 .sf-menu.sf-style-dwmax.sf-horizontal li li li.first,
 .sf-menu.sf-style-dwmax.sf-navbar li li li li.first,
 .sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper {
-  border-top-color: #e0e0e0;
+  
 }
 .sf-menu.sf-style-dwmax li {
-  background: url('images/dwmax-background.png') repeat-x top left #eeeeee;
+  
 }
 .sf-menu.sf-style-dwmax li:hover,
 .sf-menu.sf-style-dwmax li.sfHover {
-  background: url('images/dwmax-background-active.png') repeat-x top left #fefefe;
+  
 }
 .sf-menu.sf-style-dwmax.sf-horizontal > li.first {
   
