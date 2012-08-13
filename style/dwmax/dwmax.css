@@ -116,14 +116,18 @@
 .sf-menu.sf-style-dwmax a:focus,
 .sf-menu.sf-style-dwmax a:hover,
 .sf-menu.sf-style-dwmax a:active,
+.sf-menu.sf-style-dwmax a.active,
 .sf-menu.sf-style-dwmax li:hover > a,
+.sf-menu.sf-style-dwmax li.active-trail > a,
 .sf-menu.sf-style-dwmax li.sfHover > a {
   
 }
 .sf-menu.sf-style-dwmax a.sf-depth-1:focus,
 .sf-menu.sf-style-dwmax a.sf-depth-1:hover,
 .sf-menu.sf-style-dwmax a.sf-depth-1:active,
+.sf-menu.sf-style-dwmax a.sf-depth-1.active,
 .sf-menu.sf-style-dwmax li.sf-depth-1:hover > a,
+.sf-menu.sf-style-dwmax li.active-trail > a.sf-depth-1,
 .sf-menu.sf-style-dwmax li.sf-depth-1.sfHover > a {
   color: #fff;
   text-shadow: 2px 2px 3px #000000;
