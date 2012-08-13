@@ -33,29 +33,14 @@
 .sf-menu.sf-style-dwmax.sf-vertical.sf-shadow ul,
 .sf-menu.sf-style-dwmax.sf-navbar.sf-shadow ul ul {
   padding: 0 8px 7px 0 !important;
-  -webkit-border-top-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 15px;
-  -moz-border-radius-topright: 15px;
-  -moz-border-radius-bottomleft: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
+  background: #00a1e1;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .sf-menu.sf-style-dwmax.sf-horizontal.sf-shadow.rtl ul,
 .sf-menu.sf-style-dwmax.sf-vertical.sf-shadow.rtl ul,
 .sf-menu.sf-style-dwmax.sf-navbar.sf-shadow.rtl ul ul {
   padding: 0 0 7px 8px !important;
-  -webkit-border-top-left-radius: 15px;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 15px;
-  -webkit-border-bottom-left-radius: 0;
-  -moz-border-radius-topleft: 15px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 15px;
-  -moz-border-radius-bottomleft: 0;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 0;
 }
 .sf-menu.sf-style-dwmax.sf-horizontal li:hover > ul,
 .sf-menu.sf-style-dwmax.sf-horizontal li.sfHover > ul {
@@ -271,27 +256,35 @@
 .sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper {
   
 }
+.sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper a {
+  color: #fff;
+}
+.sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper a:focus,
+.sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper a:hover,
+.sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper a:active {
+  text-decoration: underline;
+}
 .sf-menu.sf-style-dwmax li ul.sf-megamenu  li.sf-megamenu-wrapper,
 .sf-menu.sf-style-dwmax li ul.sf-megamenu  li.sf-megamenu-wrapper:hover,
 .sf-menu.sf-style-dwmax li ul.sf-megamenu  li.sf-megamenu-wrapper.sfHover {
-  background: url('images/dwmax-background.png') repeat-x top left #eeeeee;
+  /*background: url('images/dwmax-background.png') repeat-x top left #eeeeee;*/
 }
 .sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper ol,
 .sf-menu.sf-style-dwmax li ul.sf-megamenu li.sf-megamenu-wrapper ol li {
   margin: 0;
   padding: 0;
 }
-.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column > a {
+.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column a {
   font-weight: bold;
   padding: 1em;
 }
-.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column:hover > a {
-  color: #555555;
+.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column:hover a {
+  
 }
-.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column > a:focus,
-.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column > a:hover,
-.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column > a:active {
-  color: #222222;
+.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column a:focus,
+.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column a:hover,
+.sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column a:active {
+  
 }
 .sf-menu.sf-style-dwmax ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column ol li {
   background: url('images/dwmax-list.png') no-repeat left center;
